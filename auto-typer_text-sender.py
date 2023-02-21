@@ -10,7 +10,7 @@ take_input = input()
 time.sleep(1)
 
 if take_input == "yes":
-    print("please open web.whatsapp.com and and click on type a message box")
+    print("please open your app and and click on type a message box")
     time.sleep(2)
     while True:
         pyautogui.typewrite("valo hoye jao tomra")
